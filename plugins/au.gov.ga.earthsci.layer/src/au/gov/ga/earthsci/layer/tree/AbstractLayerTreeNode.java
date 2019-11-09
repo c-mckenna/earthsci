@@ -443,9 +443,9 @@ public abstract class AbstractLayerTreeNode extends AbstractTreeNode<ILayerTreeN
 	{
 		//TODO should we implement a (more efficient?) modification of these collections according to changed children?
 		//update the collections if they exist
-		updateLayers();
-		updateElevationModels();
-		updateCatalogURIMap();
+		// updateLayers();
+		// updateElevationModels();
+		// updateCatalogURIMap();
 
 		//fire property changes
 		fireAnyAllChildrenEnabledChanged();
